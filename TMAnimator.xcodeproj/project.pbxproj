@@ -12,6 +12,10 @@
 		E28D2E48201597DB00163D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28D2E46201597DB00163D09 /* Main.storyboard */; };
 		E28D2E4A201597DB00163D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28D2E49201597DB00163D09 /* Assets.xcassets */; };
 		E28D2E4D201597DB00163D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28D2E4B201597DB00163D09 /* LaunchScreen.storyboard */; };
+		E28D2E5820159E7200163D09 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D2E5420159E7200163D09 /* VideoService.swift */; };
+		E28D2E5920159E7200163D09 /* VideoExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D2E5520159E7200163D09 /* VideoExportService.swift */; };
+		E28D2E5A20159E7200163D09 /* VideoExportInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D2E5620159E7200163D09 /* VideoExportInput.swift */; };
+		E28D2E5B20159E7200163D09 /* VideoExportServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D2E5720159E7200163D09 /* VideoExportServiceDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E28D2E49201597DB00163D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28D2E4C201597DB00163D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28D2E4E201597DB00163D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28D2E5420159E7200163D09 /* VideoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
+		E28D2E5520159E7200163D09 /* VideoExportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoExportService.swift; sourceTree = "<group>"; };
+		E28D2E5620159E7200163D09 /* VideoExportInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoExportInput.swift; sourceTree = "<group>"; };
+		E28D2E5720159E7200163D09 /* VideoExportServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoExportServiceDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				E28D2E42201597DB00163D09 /* AppDelegate.swift */,
 				E28D2E44201597DB00163D09 /* ViewController.swift */,
+				E28D2E5620159E7200163D09 /* VideoExportInput.swift */,
+				E28D2E5520159E7200163D09 /* VideoExportService.swift */,
+				E28D2E5720159E7200163D09 /* VideoExportServiceDelegate.swift */,
+				E28D2E5420159E7200163D09 /* VideoService.swift */,
 				E28D2E46201597DB00163D09 /* Main.storyboard */,
 				E28D2E49201597DB00163D09 /* Assets.xcassets */,
 				E28D2E4B201597DB00163D09 /* LaunchScreen.storyboard */,
@@ -137,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28D2E45201597DB00163D09 /* ViewController.swift in Sources */,
+				E28D2E5A20159E7200163D09 /* VideoExportInput.swift in Sources */,
+				E28D2E5920159E7200163D09 /* VideoExportService.swift in Sources */,
+				E28D2E5820159E7200163D09 /* VideoService.swift in Sources */,
+				E28D2E5B20159E7200163D09 /* VideoExportServiceDelegate.swift in Sources */,
 				E28D2E43201597DB00163D09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
